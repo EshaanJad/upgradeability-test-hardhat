@@ -1,0 +1,92 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xd87f14210074895EaaC7bBA66d770DaB8848093e",
+      "txHash": "0x230f466775266ad3b81195e17875137eecd0359c23da394ebb342118bda839ef",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "18be0a782a75f1bbbbf28f801308b100709d9de97e6f16b5b734920181167108": {
+      "address": "0x5253173600d600371296369cDe2688d7c9b6Fd39",
+      "txHash": "0x952ca77bdf27b57e35aeb1ddd118062aa8aa401c44faea472dff606fbb6770c7",
+      "layout": {
+        "solcVersion": "0.8.18",
+        "storage": [
+          {
+            "label": "_initialized",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint8",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "label": "_initializing",
+            "offset": 1,
+            "slot": "0",
+            "type": "t_bool",
+            "contract": "Initializable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "ERC1967UpgradeUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:197"
+          },
+          {
+            "label": "__gap",
+            "offset": 0,
+            "slot": "51",
+            "type": "t_array(t_uint256)50_storage",
+            "contract": "UUPSUpgradeable",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "label": "unlockTime",
+            "offset": 0,
+            "slot": "101",
+            "type": "t_uint256",
+            "contract": "Lock",
+            "src": "contracts/Lock.sol:10"
+          },
+          {
+            "label": "owner",
+            "offset": 0,
+            "slot": "102",
+            "type": "t_address_payable",
+            "contract": "Lock",
+            "src": "contracts/Lock.sol:11"
+          }
+        ],
+        "types": {
+          "t_address_payable": {
+            "label": "address payable",
+            "numberOfBytes": "20"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]",
+            "numberOfBytes": "1600"
+          },
+          "t_bool": {
+            "label": "bool",
+            "numberOfBytes": "1"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          },
+          "t_uint8": {
+            "label": "uint8",
+            "numberOfBytes": "1"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@openzeppelin/contracts-upgradeable": "^4.8.3",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
+    "dotenv": "^16.0.3",
+    "hardhat": "^2.14.0"
+  },
+  "name": "upgradeability-test-hardhat",
+  "version": "1.0.0",
+  "description": "This project tests the upgradeability of UUPS Proxy contracts",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
